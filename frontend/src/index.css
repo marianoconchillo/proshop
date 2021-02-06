@@ -1,0 +1,121 @@
+main {min-height: 100vh;}
+
+h3 {padding: 1rem 0;}
+
+i {margin-right: 5px;}
+
+.btn-facebook {background-color: #4267b2;}
+
+.btn-facebook:hover {background-color: #22355b;}
+
+h1 {font-size: 1.8rem;padding: 1rem 0;}
+
+h2 {font-size: 1.4rem;padding: 0.5rem 0;}
+
+.rating-span {margin: 0.1rem;}
+
+.body-container {padding-top: 5rem;}
+
+.dropdown-menu {background-color: #343a40;}
+
+.dropdown-item {color: #919aa1;}
+
+.dropdown-item:hover {color: #fff;background-color: #343a40;}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+
+/* CARD-EFFECTS */
+.card-home {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  height: 90%;
+}
+
+.card-home:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-img {max-height: 220px;}
+
+button.mercadopago-button {
+  align-self: center;
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  width: 90%;
+  padding: 0.5rem 1rem;
+}
+
+/* carousel */
+.carousel {margin-bottom: 4rem;}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {position: absolute;top: 0;}
+
+.carousel-caption h2 {color: #fff;}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {margin: 0 auto;}
+
+.nav-item {margin-right: 0rem !important;}
+
+.navbar-center {text-align: center;display: flex;}
+
+.navbar-brand {margin-right: 10rem;}
+
+.ml-sm-5, .mx-sm-5 {margin-left: 0rem !important;}
+
+/* Disable fadeInLeft in navbar for desktop */
+@media only screen and (min-width: 990px) {
+  .disableFadeInLeft {
+    animation: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-center {
+    width: 70%;
+    margin-left: 0rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-center {
+    width: 70%;
+    margin-left: 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .navbar-center {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
